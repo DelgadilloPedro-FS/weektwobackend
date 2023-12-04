@@ -7,7 +7,7 @@ const catService = async () => {
 };
 const catServiceByLimit = async (limit) => {
   console.log("return 1 query");
-  return await axios.get(`${process.env.catsURL}?limit=1`);
+  return await axios.get(`${process.env.catsURL}?limit=${limit}`);
 };
 
 module.exports = { catService, catServiceByLimit };
