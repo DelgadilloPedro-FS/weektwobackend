@@ -4,7 +4,7 @@
   "description": "an api for cats",
   "main": "server.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "start": "nodemon server"
   },
   "author": "",
